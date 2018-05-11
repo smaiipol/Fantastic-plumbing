@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/slick.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script src="js/jquery-2.0.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDtif_55BBHAe8Agti2k1TTnjMKNsGlNrI">
+		</script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/slick.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/script.js" type="text/javascript" charset="utf-8"></script>
+		<title>Fantastic Plumbing - Byron Bay</title>
+		<link href="img/logo.ico" rel="shortcut icon">
+	</head>
+
+	<body>
+		<header id="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow fadeInDown">
+						<div class="Brand">
+							<a href="index.html">
+								<img src="img/logo.png" alt="Fantastic Plumbing" />
+							</a>
+						</div>
+						<div class="menu-outer">
+							<p>Same Day Booking</p>
+							<a href="tel:0416379330"><i class="fa fa-phone" aria-hidden="true"></i>0416 379 330</a>
+							<div class="orange-button">Emergency Plumbing 24/7</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="viewport" style="background-image: url(img/banner.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow fadeInUp">
+						<div class="v-left">
+							<h1>Fantastic Plumbing <br><span>Byron Bay</span></h1>
+							<p>We service Byron Bay 2481 and suburbs within a 50km radius</p>
+						</div>
+						<div class="v-right">
+							<p><i class="fa fa-list-alt" aria-hidden="true"></i>Request a Fast Quote</p>
+							<form id="form1">
+								<input type="text" placeholder="Name" name="name" />
+								<input type="tel" placeholder="Phone Number" name="phone" />
+								<input type="email" placeholder="Email" name="email" />
+								<input type="text" placeholder="Suburb" name="suburb" />
+								<input type="text" placeholder="Service Required" name="service_required" />
+								<input type="submit" class="submit" value="Get your same day quote now" id="submitbtn1" />
+								<div id="result1"></div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="service" style="background-image: url(img/service-bg.jpg);">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 wow fadeInUp">
+						<h2>Choose a service and see our daily deals</h2>
+					</div>
+					<div class="s-icon-group wow fadeInUp">
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img1.png" />
+							</div>
+							<div class="icon-text">
+								<p>Blocked Drains</p>
+							</div>
+						</div>
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img2.png" />
+							</div>
+							<div class="icon-text">
+								<p>Jetting</p>
+							</div>
+						</div>
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img3.png" />
+							</div>
+							<div class="icon-text">
+								<p>Water Heater</p>
+							</div>
+						</div>
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img4.png" />
+							</div>
+							<div class="icon-text">
+								<p>Emergency</p>
+							</div>
+						</div>
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img5.png" />
+							</div>
+							<div class="icon-text">
+								<p>Renovations</p>
+							</div>
+						</div>
+						<div class="s-icon-group-outer link-form1" data-toggle="modal" data-target="#myModal">
+							<div class="icon-img">
+								<img src="img/icon-img6.png" />
+							</div>
+							<div class="icon-text">
+								<p>Leaks</p>
+							</div>
+						</div>
+					</div>
+					<div class="s-detial-group wow fadeInUp">
+						<div class="s-detial-group-outer">
+							<div class=" blue-detial ">
+								<p class="s-price">Save $100 OFF</p>
+								<p class="s-title">New Water Heaters*</p>
+								<a href="#" class="link-form1" data-toggle="modal" data-target="#myModal">Get this deal now</a>
+							</div>
+						</div>
+						<div class="s-detial-group-outer ">
+							<div class="orange-detial small-detial">
+								<p class="s-price">$79 Blocked Drains</p>
+								<p class="s-title">Drains Cleared from $79*</p>
+								<a href="#" class="link-form1" data-toggle="modal" data-target="#myModal">Get this deal now</a>
+							</div>
+						</div>
+						<div class="s-detial-group-outer ">
+							<div class="blue-detial ">
+								<p class="s-price">Save $50 OFF</p>
+								<p class="s-title">Your next Service*</p>
+								<a href="#" class="link-form1" data-toggle="modal" data-target="#myModal">Get this deal now</a>
+							</div>
+						</div>
+						<div class="s-detial-group-outer ">
+							<div class="orange-detial ">
+								<p class="s-price">On-time Service!</p>
+								<p class="s-title">Or we pay you $50</p>
+								<a href="#" class="link-form1" data-toggle="modal" data-target="#myModal">Get this deal now</a>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-12 wow fadeInUp">
+						<p class="s-text1">
+							With 20 years experience of plumbing work, Fantastic Plumbing can handle all types of jobs <br>from changing tap washers to large complex industrial projects – all completed <br>with the same dedication & both on time and on budget. We service Byron Bay 2481 <br>and suburbs within a 50km radius
+						</p>
+						<p class="s-text2">All are treated with equal importance and Fantastic Plumbing ensures the highest quality customer service for all of our plumbing service categories. <br>In addition we cover a broad range of plumbing, gas and drainage applications.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="blocked">
+			<div class="b-left wow fadeInUp" style="background-image: url(img/blocked-img1.jpg);">
+				<img src="img/blocked-img1.jpg" />
+			</div>
+			<div class="b-right wow fadeInUp" style="background-image: url(img/blocked-img2.jpg);">
+				<h2>Blocked Drains Repair</h2>
+				<p class="b-medium">Suspect a blocked drain? Rely on Fantastic Plumbing to diagnose and fix the problem in no time!</p>
+				<p class="b-light">Our plumbers are equipped with the latest technology incldung <br>CCTV inspection technology and high powered water jeters. let <br>us investigate your blocked drain today!</p>
+				<p class="b-big-light">Get in touch for a same day callout</p>
+				<a href="tel:0416379330">Call us Today <span>0416 379 330</span></a>
+			</div>
+		</div>
+		<div class="clients" style="background-image: url(img/slick-bg.jpg);">
+			<div class="container">
+				<h2>Our Satisfied Clients</h2>
+				<h3>What they are saying about us</h3>
+				<div class="slide-container">
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+					<div class="slide-outer">
+						<div class="icon-img">
+							<img src="img/icon-img7.png" />
+						</div>
+						<div class="slide-text">
+							<p class="s-content">Lorem ipsum dolor sit amet, consecte-tur adipiscing elit. Phasellus hendrerit id mauris congue scelerisque. Sed tempus augue nec ex varius hendrerit. Phasellus a diam blandit, commodo sem id, blandit nulla.</p>
+							<p class="s-black">Matt Daemon, NSW</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="support">
+			<div class="container">
+				<h2 class=" wow fadeInUp">Charities We Support</h2>
+				<div class="support-icon-group wow fadeInUp">
+					<img src="img/support-logo1.png" />
+					<img src="img/support-logo2.png" />
+					<img src="img/support-logo3.jpg" />
+					<img src="img/support-logo4.jpg" />
+					<img src="img/support-logo5.jpg" />
+					<img src="img/support-logo6.png" />
+				</div>
+			</div>
+		</div>
+		<div class="contact" style="background-image: url(img/map-bg.jpg);">
+			<div class="container">
+				<div class="map wow fadeInUp" id="map"></div>
+				<div class="contact-form wow fadeInUp">
+					<h2>What do you need?</h2>
+					<h3>Drop us an Enquiry</h3>
+					<form id="form2">
+						<input type="text" placeholder="Full Name *" name="name" />
+						<input type="email" placeholder="Email Address *" name="email" />
+						<input type="tel" placeholder="Phone Number *	" name="phone" />
+						<textarea rows="5" cols="" placeholder="Message" name="message"></textarea>
+						<div class="submit-text">
+							<p>We will get back to you soon!</p>
+							<input type="submit" value="Get a Quick Quote" id="submitbtn2" />
+						</div>
+						<div id="result2"></div>
+					</form>
+					<script>
+						jQuery("#submitbtn2").click(function() {
+							var input_data = jQuery('#form2').serialize();
+							jQuery.ajax({
+								type: "POST",
+								url: "form/form2.php",
+								data: input_data,
+								success: function(msg) {
+									jQuery('div#result2').html(msg).hide().fadeIn('slow');
+								}
+							});
+							return false;
+						});
+					</script>
+					<div class="info">
+						<div class="info-l">
+							<i class="fa fa-phone" title="tel" aria-hidden="true"></i>
+							<a href="tel:0146379330">0416 379 330</a>
+						</div>
+						<div class="info-m">
+							|
+						</div>
+						<div class="info-r">
+							<i class="fa fa-envelope" title="email" aria-hidden="true"></i>
+							<a href="mailto:info@fantasticplumbing.com.au">info@fantasticplumbing.com.au</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<a><img src="img/logo.png" alt="Fantastic Plumbing" /></a>
+						<p>Copyright &copy; 2018 Fantastic Plumbing</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog modal-dialog-centered">
+		        <div class="modal-content">
+		            <div class="modal-header">
+		            	<p><i class="fa fa-list-alt" aria-hidden="true"></i>Request a Fast Quote</p>
+		            </div>
+		            <div class="modal-body">
+		            	<form id="form3">
+		            		<input type="text" placeholder="Name" name="name" />
+		            		<input type="tel" placeholder="Phone Number" name="phone" />
+		            		<input type="email" placeholder="Email" name="email" />
+		            		<input type="text" placeholder="Suburb" name="suburb" />
+		            		<input type="text" placeholder="Service Required" name="service_required" />
+		            		<input type="submit" class="submit" value="Get your same day quote now" id="submitbtn3" />
+		            		<div id="result3"></div>
+		            	</form>
+		            </div>
+		        </div><!-- /.modal-content -->
+		    </div><!-- /.modal -->
+		</div>
+
+		<script>
+			jQuery("#submitbtn1").click(function() {
+				var input_data = jQuery('#form1').serialize();
+				jQuery.ajax({
+					type: "POST",
+					url: "form/form1.php",
+					data: input_data,
+					success: function(msg) {
+						jQuery('div#result1').html(msg).hide().fadeIn('slow');
+					}
+				});
+				return false;
+			});
+
+			jQuery("#submitbtn3").click(function() {
+				var input_data = jQuery('#form3').serialize();
+				jQuery.ajax({
+					type: "POST",
+					url: "form/form1.php",
+					data: input_data,
+					success: function(msg) {
+						jQuery('div#result3').html(msg).hide().fadeIn('slow');
+					}
+				});
+				return false;
+			});
+		</script>
+	</body>
+</html>
